@@ -1,0 +1,123 @@
+@font-face {
+    font-family: norse;
+    src: url(Norse-Bold.otf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+}
+
+.text{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    height: 14rem;
+    background-color: rgba(0, 0, 0, 0.621);
+    width: 100%;
+}
+
+.logo{
+    width: max(30vw, 500px);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 80px;
+    color: whitesmoke;
+    font-family: norse;
+    background: url(halie-west-25xggax4bSA-unsplash.jpg);
+    background-size: auto 100%;
+    background-repeat:round;
+}
+
+img{
+    height: 2em;
+}
+
+.info{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 70vw;
+}
+
+.header{
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    padding: 80px 60px 20px 20px;
+    /* box-sizing: border-box; */
+    font-size: 1.5rem;
+    font-weight: bold;
+    background-color: #F9FAFB;
+}
+
+.header div{
+    padding: 20px;
+}
+
+
+.form{
+    height: max(600px,10vh);
+    font-size: 1.5rem;
+    font-weight: bold;
+    box-sizing: border-box;
+    padding: 80px 20% 20px 40px;
+}
+
+form{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.input{
+    font-size: 1rem;
+    padding-left: 0;
+    padding-right: 80px;
+    padding: 20px 80px 0 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.input input{
+    width: 300px;
+    border-radius:0.1cm;
+    height: 1.5rem;
+}
+
+.btn{
+    height: 400px;
+    background-color: #F9FAFB;
+    padding-left: 40px;
+    padding-top: 40px;
+}
+
+.btn div{
+    padding-top: 40px;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+button{
+    width: 250px;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 10px;
+    background-color: #596D48;
+    border-radius: 0.2cm;
+    color: aliceblue;
+}
+
+mark{
+    color:#596D48;
+    background-color: transparent;
+}
